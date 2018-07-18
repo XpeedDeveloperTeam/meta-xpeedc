@@ -2,6 +2,8 @@ DESCRIPTION = "Linux kernel for ${MACHINE}"
 SECTION = "kernel"
 LICENSE = "GPLv2"
 
+PACKAGE_ARCH = "${MACHINE_ARCH}"
+
 COMPATIBLE_MACHINE = "xpeedc"
 
 KERNEL_RELEASE = "3.18.18"
